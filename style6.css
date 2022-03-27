@@ -1,0 +1,139 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+.nav-bar
+{
+    top: 0px;
+    position:sticky;
+    background-color: #FCA311;
+    display: flex;
+    justify-content: right;
+    color:white;
+    padding: 10px 20px; 
+    height: 60px;
+    max-height: 45px;
+}
+.nav-item
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor:grabbing;
+    size: 1px   ;
+    font-size:20px ;
+}
+a{
+        text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.id
+{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+h3{
+    color: #f0aa3a;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #e6a947;
+}
+h1
+{
+    text-shadow: 2px 2px 3px wheat;
+}
+.projects
+{
+    border: 2px solid black;
+    background-color: #14213D;
+    min-height: 100vh;
+    text-align: center;
+    padding: 75px;
+    
+}
+#project-title
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    top: 10px;
+    font-size: 30px;
+}
+.project-grid
+{
+    display: flex;
+    margin-top: 20px;
+}
+.project-image {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+.project-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    line-height: 80px;
+    margin: auto;
+}
+.project-tile
+{
+    margin: 30px;
+}
+.title{
+    color: #FCA311;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.contact
+{
+    background-color:#14213D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.btn
+{
+    background-color: #FCA311;
+    color: black;
+    padding: 10px 15px;
+    border: #FCA311 3px solid;
+    border-radius: 10px;
+}
+table
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.project-link-div
+{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+a
+{
+    color: white;
+    text-align: center;
+    align-content: center;
+}
